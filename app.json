@@ -1,0 +1,30 @@
+{
+  "name": "随意",
+  "description": "随意",
+  "keywords": [
+    "随意"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "minipvmessorvless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "uID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocketlj",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/seerdfttyuiop/share32",
+  "repository": "https://github.com/seerdfttyuiop/share32",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
